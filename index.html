@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Style Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+        <h1>Create your free account</h1>
+        <p class="sub">Explore GitHub’s core features for individuals and organizations.</p>
+
+        <p class="link">See what's included ▼</p>
+
+        <img src="character1.png" class="char1">
+        <img src="character2.png" class="char2">
+        <img src="character3.png" class="char3">
+    </div>
+
+    <!-- RIGHT SIDE FORM -->
+    <div class="right">
+
+        <h2>Sign up for GitHub</h2>
+
+        <button class="oauth google">Continue with Google</button>
+        <button class="oauth apple">Continue with Apple</button>
+
+        <div class="divider">or</div>
+
+        <label>Email*</label>
+        <input type="email" placeholder="Email">
+
+        <label>Password*</label>
+        <input type="password" placeholder="Password">
+        <small>Password should be at least 15 characters OR at least 8 characters including a number and a lowercase letter.</small>
+
+        <label>Username*</label>
+        <input type="text" class="error-input" placeholder="Username">
+        
+        <div class="error-box">
+            <p>⚠ Username cannot be blank</p>
+            <p>⚠ Username Santho is not available.</p>
+            <a href="#">Santho-create</a>, 
+            <a href="#">Santho-droid</a>, or 
+            <a href="#">Santho982</a> are available.
+        </div>
+
+        <label>Your Country/Region*</label>
+        <select>
+            <option>India</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Canada</option>
+        </select>
+
+        <label class="email-pref">
+            <input type="checkbox"> Receive occasional product updates and announcements
+        </label>
+
+        <button class="create">Create account</button>
+
+        <p class="terms">
+            By creating an account, you agree to the Terms of Service.  
+            For more information see the GitHub Privacy Statement.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
